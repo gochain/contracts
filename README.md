@@ -1,0 +1,2 @@
+# contracts
+Generic GoChain contracts
