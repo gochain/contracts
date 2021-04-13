@@ -1821,7 +1821,7 @@ contract GenericERC721 is ERC721PresetMinterPauserAutoId {
     }
 
     function setBaseURI(string memory baseURI) public {
-        require(hasRole(DEFAULT_ADMIN_ROLE, _msgSender()), "web3 CLI: must have admin role to update tokenURI");
+        require(hasRole(DEFAULT_ADMIN_ROLE, _msgSender()), "must have admin role to update baseURI");
 
         _setBaseURI(baseURI);
     }
